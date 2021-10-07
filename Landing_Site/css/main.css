@@ -1,0 +1,187 @@
+body {
+    background: #DDE2DD;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    color: #757B74;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6E6D6D;
+}
+
+nav li {
+    float: left;
+    font-family: Tahoma, sans-serif;
+}
+
+nav li a {
+    display: block;
+    color: #FBF7F0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555555;
+}
+
+nav p {
+    font-size: 92%;
+    color: #F3F1F5;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.HTML_button {
+    background-color: #1687A7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.HTML_button:hover {
+    opacity: 1
+}
+
+#HTML_section {
+    margin: auto;
+    border: solid 3px #1687A7;
+    border-radius: 10px;
+    width:40%;
+
+}
+
+#HTML_section p {
+    text-align: 70px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-family: Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+#HTML_section img {
+    float: left;
+    margin: 20px;
+    margin-right: 22px;
+    width: 100px;
+    height: 100px;
+}
+
+.CSS_button {
+    background-color: #916DD5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.CSS_button:hover {
+    opacity: 1
+}
+
+#CSS_section {
+    margin: auto;
+    border: solid 3px #916DD5;
+    border-radius: 10px;
+    width:40%;
+}
+
+#CSS_section p {
+    text-align: 70px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-family: Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+#CSS_section img {
+    float: left;
+    margin: 15px;
+    margin-left: 12px;
+    width: 115px;
+    height: 115px;
+}
+
+.Eva_button {
+    background-color: #53ae53;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.Eva_button:hover {
+    opacity: 1
+}
+
+#Eva_section {
+    margin: auto;
+    border: solid 3px #53ae53;
+    border-radius: 10px;
+    width:40%;
+}
+
+#Eva_section p {
+    text-align: 70px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-family: Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+#Eva_section img {
+    float: left;
+    margin: 15px;
+    margin-left: 21px;
+    margin-right: 21px;
+    width: 100px;
+    height: 100px;
+}
