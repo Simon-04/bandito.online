@@ -5,13 +5,14 @@ body {
 
 main {
 	width: 800px;
-    height: 1000px;
+    height: 1150px;
     border: solid 1px #c4c7bf;
     margin: auto;
     margin-top: 10px;
+    background-color: #e7ebe1;
 }
 
-header img {
+img {
 	margin: 20px;
 }
 
@@ -53,11 +54,53 @@ nav p {
     margin-right: 20px;
 }
 
-#text h1{
+h1{
 	margin-left: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 250%;
 	font-weight: lighter;
 	color: #3eb33a;
 
+}
+
+#maintext p{
+    margin: 20px;
+    font-size: 110%;
+    line-height: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#maintext img{
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+}
+
+#bottomtext h4{
+    color: #3eb33a;
+    font-size: 150%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -5px;
+    font-weight: lighter;
+}
+
+#bottomtext li{
+    margin-left: 20px;
+}
+
+#bottomtext a{
+    color: red;
+}
+
+hr{
+    width: 750px;
+}
+
+footer{
+    margin-left: 20px;
+}
+
+footer a{
+    color: red;
 }
